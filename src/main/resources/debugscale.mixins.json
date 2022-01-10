@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.redlimerl.debugscale.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "WindowMixin"
+  ],
+  "client": [
+    "DebugHudMixin",
+    "MinecraftClientMixin",
+    "SodiumGameOptionPagesMixin",
+    "VideoOptionsScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
