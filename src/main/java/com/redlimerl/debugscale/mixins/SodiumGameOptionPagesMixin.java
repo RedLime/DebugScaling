@@ -1,7 +1,6 @@
 package com.redlimerl.debugscale.mixins;
 
 import com.redlimerl.debugscale.options.SodiumAdditionalOption;
-import me.jellysquid.mods.sodium.client.gui.SodiumOptionsGUI;
 import me.jellysquid.mods.sodium.client.gui.options.OptionPage;
 import net.minecraft.client.gui.screen.Screen;
 import org.spongepowered.asm.mixin.Final;
